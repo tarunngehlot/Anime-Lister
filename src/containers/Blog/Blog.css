@@ -1,0 +1,38 @@
+.Posts {
+    display: flex;
+    height: 220px;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 98%;
+    margin: auto;
+    margin-top: 10px;
+    background-color:#009B77;
+    border: 3px solid #00664e;
+    box-shadow: 0 10px 25px #003327;
+}
+
+.Search{
+  margin: auto;
+  align-items: center;
+  width: 80%;
+  background-color: #009B77;
+}
+
+.New{
+  display: flex;
+  background-color:#009B77;
+  justify-content: center;
+}
+
+.Slider{
+  display: flex;
+  flex-flow: row wrap;
+  background-color:#009B77;
+  justify-content: center;
+}
+
+.Search .Result{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}

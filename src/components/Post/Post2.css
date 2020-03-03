@@ -1,0 +1,87 @@
+.Post{
+  position: relative;
+  width: 150px;
+  height: 200px;
+  margin: 20px 15px;
+  perspective: 1000px;
+  overflow: hidden;
+  transform-style: preserve-3d;
+  border: 2px solid #1affc9;
+  box-shadow: 0 3px 5px #003327;
+  margin: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.Post .imgBox{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-origin: top;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  transition-delay: 0.3s;
+}
+
+.Post:hover .imgBox{
+  transform: rotateX(-90deg);
+  opacity: 0;
+  transition-delay: 0;
+}
+
+.Post .imgBox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.Post .Details{
+  position: absolute;
+  display: block;
+
+  width: 100%;
+  height: 100%;
+  background: #333;
+  transform-origin: bottom;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  transform: rotateX(90deg);
+  opacity: 0;
+  color: white;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: 10px;
+  border-style: inset;
+  border-width: 2px;
+}
+
+h3{
+  text-transform: uppercase;
+}
+
+.Post:hover .Details{
+  transform: rotateX(0deg);
+  opacity: 1;
+  transition-delay: 0.2s;
+}
+
+.Post .Details .content{
+  display: block;
+  bottom: 0;
+  vertical-align: baseline;
+  margin-left: 10px;
+}
+
+.Post .Details .content p{
+  font-size: 0.7rem;
+}

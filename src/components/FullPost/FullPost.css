@@ -1,0 +1,30 @@
+.FullPost {
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    border: 3px solid #eee;
+    background-color: #333333;
+    box-shadow: 3px 5px 5px black;
+    text-align: center;
+    display: flex;
+    overflow:hidden;
+}
+
+.FullPost .content{
+  display: block;
+  color: #fff;
+}
+
+.FullPost .Right img{
+  float: right;
+  height: 92%;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.FullPost .Left img{
+  float: left;
+  height: 92%;
+  padding: 10px;
+  margin-right: 20px;
+}

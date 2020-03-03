@@ -1,0 +1,19 @@
+.mySearch{
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+
+  border: none;
+  outline: none;
+  background: none;
+
+  background-color: #EEE;
+  border-radius: 8px;
+
+  color: #53565A;
+  font-size: 20px;
+  font-weight: 300;
+
+  transition: 0.4s ease-out;
+}
